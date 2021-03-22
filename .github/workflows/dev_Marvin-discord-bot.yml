@@ -36,7 +36,7 @@ jobs:
       - name: "Deploy to Azure Web App"
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "Marvin-discord-bot"
+          app-name: "Bot-Discord-Marvin"
           slot-name: "production"
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_c0e50899f7194a78a33321101d4022f6 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_7a465319470f43bd9769d7bd826783fa }}
           package: .
